@@ -1,0 +1,3159 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY swrl "http://www.w3.org/2003/11/swrl#" >
+    <!ENTITY swrlb "http://www.w3.org/2003/11/swrlb#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY ont. "http://www.co-ode.org/ontologies/ont.owl#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#"
+     xml:base="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:ont.="http://www.co-ode.org/ontologies/ont.owl#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3">
+        <rdfs:comment rdf:resource="&ont.;OWLClass_00000000000000000928"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2003/11/swrl#argument2 -->
+
+    <owl:AnnotationProperty rdf:about="&swrl;argument2"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLObjectProperty_00000000000000000912 -->
+
+    <owl:ObjectProperty rdf:about="&ont.;OWLObjectProperty_00000000000000000912">
+        <rdfs:label xml:lang="en">PreventsGreaterHarm</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLObjectProperty_00000000000000000913 -->
+
+    <owl:ObjectProperty rdf:about="&ont.;OWLObjectProperty_00000000000000000913">
+        <rdfs:label xml:lang="en">NotIntendedToCauseHarm</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLObjectProperty_00000000000000000914 -->
+
+    <owl:ObjectProperty rdf:about="&ont.;OWLObjectProperty_00000000000000000914">
+        <rdfs:label xml:lang="en">NotOffense</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLObjectProperty_00000000000000000918 -->
+
+    <owl:ObjectProperty rdf:about="&ont.;OWLObjectProperty_00000000000000000918">
+        <rdfs:label xml:lang="en">IntentionallyCommits</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLObjectProperty_00000000000000000919 -->
+
+    <owl:ObjectProperty rdf:about="&ont.;OWLObjectProperty_00000000000000000919">
+        <rdf:type rdf:resource="&owl;InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="en">Jointly</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLObjectProperty_00000000000000000920 -->
+
+    <owl:ObjectProperty rdf:about="&ont.;OWLObjectProperty_00000000000000000920">
+        <rdfs:label xml:lang="en">CommonIntention</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLObjectProperty_00000000000000000921 -->
+
+    <owl:ObjectProperty rdf:about="&ont.;OWLObjectProperty_00000000000000000921">
+        <rdfs:label xml:lang="en">EquallyLiable</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLObjectProperty_00000000000000000290"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLObjectProperty_00000000000000000925 -->
+
+    <owl:ObjectProperty rdf:about="&ont.;OWLObjectProperty_00000000000000000925">
+        <rdfs:label xml:lang="en">isEqual</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLObjectProperty_00000000000000001058 -->
+
+    <owl:ObjectProperty rdf:about="&ont.;OWLObjectProperty_00000000000000001058">
+        <rdfs:label xml:lang="en">hasCaseCrimeNumber</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLObjectProperty_00000000000000001059 -->
+
+    <owl:ObjectProperty rdf:about="&ont.;OWLObjectProperty_00000000000000001059">
+        <rdfs:label xml:lang="en">hasClient</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLObjectProperty_00000000000000001060 -->
+
+    <owl:ObjectProperty rdf:about="&ont.;OWLObjectProperty_00000000000000001060">
+        <rdfs:label xml:lang="en">hasCourtCity</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLObjectProperty_00000000000000001061 -->
+
+    <owl:ObjectProperty rdf:about="&ont.;OWLObjectProperty_00000000000000001061">
+        <rdfs:label xml:lang="en">hasCourtName</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLObjectProperty_00000000000000001062 -->
+
+    <owl:ObjectProperty rdf:about="&ont.;OWLObjectProperty_00000000000000001062">
+        <rdfs:label xml:lang="en">hasDateOfJudgement</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLObjectProperty_00000000000000001063 -->
+
+    <owl:ObjectProperty rdf:about="&ont.;OWLObjectProperty_00000000000000001063">
+        <rdfs:label xml:lang="en">hasDateOfOccurence</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLObjectProperty_00000000000000001064 -->
+
+    <owl:ObjectProperty rdf:about="&ont.;OWLObjectProperty_00000000000000001064">
+        <rdfs:label xml:lang="en">hasID</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLObjectProperty_00000000000000001065 -->
+
+    <owl:ObjectProperty rdf:about="&ont.;OWLObjectProperty_00000000000000001065">
+        <rdfs:label xml:lang="en">hasIntent</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLObjectProperty_00000000000000001066 -->
+
+    <owl:ObjectProperty rdf:about="&ont.;OWLObjectProperty_00000000000000001066">
+        <rdfs:label xml:lang="en">hasJudge</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLObjectProperty_00000000000000001067 -->
+
+    <owl:ObjectProperty rdf:about="&ont.;OWLObjectProperty_00000000000000001067">
+        <rdfs:label xml:lang="en">hasJudgement</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLObjectProperty_00000000000000001068 -->
+
+    <owl:ObjectProperty rdf:about="&ont.;OWLObjectProperty_00000000000000001068">
+        <rdfs:label xml:lang="en">hasOppositeParty</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLObjectProperty_00000000000000001069 -->
+
+    <owl:ObjectProperty rdf:about="&ont.;OWLObjectProperty_00000000000000001069">
+        <rdfs:label xml:lang="en">hasPlaceOfOccurence</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLObjectProperty_00000000000000001070 -->
+
+    <owl:ObjectProperty rdf:about="&ont.;OWLObjectProperty_00000000000000001070">
+        <rdfs:label xml:lang="en">hasRelatedSectionID</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLObjectProperty_00000000000000001071 -->
+
+    <owl:ObjectProperty rdf:about="&ont.;OWLObjectProperty_00000000000000001071">
+        <rdfs:label xml:lang="en">hasSectionDesc</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLObjectProperty_00000000000000001073 -->
+
+    <owl:ObjectProperty rdf:about="&ont.;OWLObjectProperty_00000000000000001073">
+        <rdfs:label xml:lang="en">hasTimeOfOccurence</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLObjectProperty_00000000000000001074 -->
+
+    <owl:ObjectProperty rdf:about="&ont.;OWLObjectProperty_00000000000000001074">
+        <rdfs:label xml:lang="en">hasSectionNumber</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLObjectProperty_00000000000000001075 -->
+
+    <owl:ObjectProperty rdf:about="&ont.;OWLObjectProperty_00000000000000001075">
+        <rdfs:label xml:lang="en">hasWeapon</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLObjectProperty_00000000000000001077 -->
+
+    <owl:ObjectProperty rdf:about="&ont.;OWLObjectProperty_00000000000000001077">
+        <rdfs:label xml:lang="en">hasDoneViolence</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLObjectProperty_00000000000000001078 -->
+
+    <owl:ObjectProperty rdf:about="&ont.;OWLObjectProperty_00000000000000001078">
+        <rdfs:label xml:lang="en">hasDoneAssault</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLObjectProperty_00000000000000001079 -->
+
+    <owl:ObjectProperty rdf:about="&ont.;OWLObjectProperty_00000000000000001079">
+        <rdfs:label xml:lang="en">Physcologyical_torment</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLObjectProperty_00000000000000001080 -->
+
+    <owl:ObjectProperty rdf:about="&ont.;OWLObjectProperty_00000000000000001080">
+        <rdfs:label xml:lang="en">hasEvidenceAgainst</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLObjectProperty_00000000000000001081 -->
+
+    <owl:ObjectProperty rdf:about="&ont.;OWLObjectProperty_00000000000000001081">
+        <rdfs:label xml:lang="en">hasInvolvedRelative</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#NotIntendedToCauseHarm -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#NotIntendedToCauseHarm">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdf:type rdf:resource="&owl;SymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#NotOffence -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#NotOffence"/>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#NotOffence36 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#NotOffence36"/>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#PreventsGreaterHarm -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#PreventsGreaterHarm"/>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLObjectProperty_00000000000000000255 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLObjectProperty_00000000000000000255">
+        <rdfs:label xml:lang="en">of_punishments</rdfs:label>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000025"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000026"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000074"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000075"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000076"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000077"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000078"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000079"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000080"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000081"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000082"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000083"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000084"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000085"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000086"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000087"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000088"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000089"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000090"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000091"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000092"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000093"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000094"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000095"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000096"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLObjectProperty_00000000000000000277 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLObjectProperty_00000000000000000277">
+        <rdfs:label xml:lang="en">Introduction</rdfs:label>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000020"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000021"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000022"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000023"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000024"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLObjectProperty_00000000000000000287 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLObjectProperty_00000000000000000287">
+        <rdfs:label xml:lang="en">General Explanations</rdfs:label>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000020"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000021"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000022"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000023"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000024"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000025"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000026"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000027"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000028"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000029"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000030"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000031"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000032"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000033"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000034"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000035"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000036"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000037"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000038"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000039"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000040"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000041"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000042"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000043"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000044"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000045"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000046"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000047"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000048"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000049"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000050"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000051"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000052"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000053"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000054"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000055"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000056"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000057"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000058"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000059"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000060"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000061"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000062"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000063"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000064"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000065"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000066"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000067"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000068"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000070"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000071"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000072"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLObjectProperty_00000000000000000288 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLObjectProperty_00000000000000000288">
+        <rdfs:label xml:lang="en">General_Exceptions</rdfs:label>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000101"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000103"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000105"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000106"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000107"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000108"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000110"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000111"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000112"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000113"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000114"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000115"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000116"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000117"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000118"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000119"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000120"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000121"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000122"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000123"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000124"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000125"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000126"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000127"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000128"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000129"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000130"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000131"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLObjectProperty_00000000000000000289 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLObjectProperty_00000000000000000289">
+        <rdfs:label xml:lang="en">Of_Abetment</rdfs:label>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000096"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000132"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000133"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000134"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000135"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000136"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000137"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000138"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000139"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000140"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000141"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000142"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000143"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000144"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000145"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLObjectProperty_00000000000000000290 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLObjectProperty_00000000000000000290">
+        <rdfs:label xml:lang="en">Criminal_Conspiracy</rdfs:label>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000292"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000293"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLObjectProperty_00000000000000000294 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLObjectProperty_00000000000000000294">
+        <rdfs:label xml:lang="en">OF_Offences_Against_The_State</rdfs:label>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000146"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000147"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000148"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000149"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000150"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000151"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000152"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000153"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000154"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000155"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLObjectProperty_00000000000000000295 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLObjectProperty_00000000000000000295">
+        <rdfs:label xml:lang="en">Of_Offences_Relating_of_the_Army_Navyand_Air_Force</rdfs:label>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000159"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000160"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000161"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000162"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000163"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000164"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000165"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000166"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000167"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000168"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLDataProperty_00000000000000001086 -->
+
+    <owl:DatatypeProperty rdf:about="&ont.;OWLDataProperty_00000000000000001086">
+        <rdfs:label xml:lang="en">Case_ID</rdfs:label>
+        <rdfs:domain rdf:resource="&ont.;OWLClass_00000000000000001039"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLDataProperty_00000000000000001133 -->
+
+    <owl:DatatypeProperty rdf:about="&ont.;OWLDataProperty_00000000000000001133">
+        <rdfs:label xml:lang="en">Court_Name</rdfs:label>
+        <rdfs:domain rdf:resource="&ont.;OWLClass_00000000000000001039"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLDataProperty_00000000000000001134 -->
+
+    <owl:DatatypeProperty rdf:about="&ont.;OWLDataProperty_00000000000000001134">
+        <rdfs:label xml:lang="en">Date_OF_Occurence</rdfs:label>
+        <rdfs:domain rdf:resource="&ont.;OWLClass_00000000000000001039"/>
+        <rdfs:range rdf:resource="&xsd;dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLDataProperty_00000000000000001135 -->
+
+    <owl:DatatypeProperty rdf:about="&ont.;OWLDataProperty_00000000000000001135">
+        <rdfs:label xml:lang="en">Time_Of_Occurecne</rdfs:label>
+        <rdfs:domain rdf:resource="&ont.;OWLClass_00000000000000001039"/>
+        <rdfs:range rdf:resource="&xsd;dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLDataProperty_00000000000000001142 -->
+
+    <owl:DatatypeProperty rdf:about="&ont.;OWLDataProperty_00000000000000001142">
+        <rdfs:label xml:lang="en">hasDOB</rdfs:label>
+        <rdfs:domain rdf:resource="&ont.;OWLClass_00000000000000001094"/>
+        <rdfs:range rdf:resource="&xsd;dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLDataProperty_00000000000000001143 -->
+
+    <owl:DatatypeProperty rdf:about="&ont.;OWLDataProperty_00000000000000001143">
+        <rdfs:label xml:lang="en">hasContactNumber</rdfs:label>
+        <rdfs:domain rdf:resource="&ont.;OWLClass_00000000000000001094"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLDataProperty_00000000000000001144 -->
+
+    <owl:DatatypeProperty rdf:about="&ont.;OWLDataProperty_00000000000000001144">
+        <rdfs:label xml:lang="en">hasRelation</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLDataProperty_00000000000000001145 -->
+
+    <owl:DatatypeProperty rdf:about="&ont.;OWLDataProperty_00000000000000001145">
+        <rdfs:label xml:lang="en">hasWorkPlace</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLDataProperty_00000000000000001164 -->
+
+    <owl:DatatypeProperty rdf:about="&ont.;OWLDataProperty_00000000000000001164">
+        <rdfs:label xml:lang="en">hasFillingNo</rdfs:label>
+        <rdfs:domain rdf:resource="&ont.;OWLClass_00000000000000001039"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLDataProperty_00000000000000001165 -->
+
+    <owl:DatatypeProperty rdf:about="&ont.;OWLDataProperty_00000000000000001165">
+        <rdfs:label xml:lang="en">hasRegistrationNumber</rdfs:label>
+        <rdfs:domain rdf:resource="&ont.;OWLClass_00000000000000001039"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLDataProperty_00000000000000001166 -->
+
+    <owl:DatatypeProperty rdf:about="&ont.;OWLDataProperty_00000000000000001166">
+        <rdfs:label xml:lang="en">hasFillingDate</rdfs:label>
+        <rdfs:domain rdf:resource="&ont.;OWLClass_00000000000000001039"/>
+        <rdfs:range rdf:resource="&xsd;dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLDataProperty_00000000000000001167 -->
+
+    <owl:DatatypeProperty rdf:about="&ont.;OWLDataProperty_00000000000000001167">
+        <rdfs:label xml:lang="en">hasRegistrationNumber</rdfs:label>
+        <rdfs:domain rdf:resource="&ont.;OWLClass_00000000000000001039"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLDataProperty_00000000000000001168 -->
+
+    <owl:DatatypeProperty rdf:about="&ont.;OWLDataProperty_00000000000000001168">
+        <rdfs:label xml:lang="en">has_CNR_Number</rdfs:label>
+        <rdfs:domain rdf:resource="&ont.;OWLClass_00000000000000001039"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLDataProperty_00000000000000001170 -->
+
+    <owl:DatatypeProperty rdf:about="&ont.;OWLDataProperty_00000000000000001170">
+        <rdfs:label xml:lang="en">First_Hearing_Date</rdfs:label>
+        <rdfs:domain rdf:resource="&ont.;OWLClass_00000000000000001039"/>
+        <rdfs:range rdf:resource="&xsd;dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLDataProperty_00000000000000001171 -->
+
+    <owl:DatatypeProperty rdf:about="&ont.;OWLDataProperty_00000000000000001171">
+        <rdfs:label xml:lang="en">Next_Hearing_Date</rdfs:label>
+        <rdfs:domain rdf:resource="&ont.;OWLClass_00000000000000001039"/>
+        <rdfs:range rdf:resource="&xsd;dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLDataProperty_00000000000000001172 -->
+
+    <owl:DatatypeProperty rdf:about="&ont.;OWLDataProperty_00000000000000001172">
+        <rdfs:label xml:lang="en">Stage_Of_Case</rdfs:label>
+        <rdfs:domain rdf:resource="&ont.;OWLClass_00000000000000001039"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLDataProperty_00000000000000001174 -->
+
+    <owl:DatatypeProperty rdf:about="&ont.;OWLDataProperty_00000000000000001174">
+        <rdfs:label xml:lang="en">Judge</rdfs:label>
+        <rdfs:domain rdf:resource="&ont.;OWLClass_00000000000000001173"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLDataProperty_00000000000000001175 -->
+
+    <owl:DatatypeProperty rdf:about="&ont.;OWLDataProperty_00000000000000001175">
+        <rdfs:label xml:lang="en">Hearing_Date</rdfs:label>
+        <rdfs:domain rdf:resource="&ont.;OWLClass_00000000000000001173"/>
+        <rdfs:range rdf:resource="&xsd;dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLDataProperty_00000000000000001176 -->
+
+    <owl:DatatypeProperty rdf:about="&ont.;OWLDataProperty_00000000000000001176">
+        <rdfs:label xml:lang="en">Purpose_of_Hierarchy</rdfs:label>
+        <rdfs:domain rdf:resource="&ont.;OWLClass_00000000000000001173"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLDataProperty_00000000000000001179 -->
+
+    <owl:DatatypeProperty rdf:about="&ont.;OWLDataProperty_00000000000000001179">
+        <rdfs:label xml:lang="en">Order_Number</rdfs:label>
+        <rdfs:domain rdf:resource="&ont.;OWLClass_00000000000000001180"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLDataProperty_00000000000000001181 -->
+
+    <owl:DatatypeProperty rdf:about="&ont.;OWLDataProperty_00000000000000001181">
+        <rdfs:label xml:lang="en">Order_Date</rdfs:label>
+        <rdfs:domain rdf:resource="&ont.;OWLClass_00000000000000001180"/>
+        <rdfs:range rdf:resource="&xsd;dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLDataProperty_00000000000000001182 -->
+
+    <owl:DatatypeProperty rdf:about="&ont.;OWLDataProperty_00000000000000001182">
+        <rdfs:label xml:lang="en">Order_Details</rdfs:label>
+        <rdfs:domain rdf:resource="&ont.;OWLClass_00000000000000001180"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLDataProperty_00000000000000001184 -->
+
+    <owl:DatatypeProperty rdf:about="&ont.;OWLDataProperty_00000000000000001184">
+        <rdfs:label xml:lang="en">FIR_Number</rdfs:label>
+        <rdfs:domain rdf:resource="&ont.;OWLClass_00000000000000001180"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLDataProperty_00000000000000001185 -->
+
+    <owl:DatatypeProperty rdf:about="&ont.;OWLDataProperty_00000000000000001185">
+        <rdfs:label xml:lang="en">FIR_DATE</rdfs:label>
+        <rdfs:domain rdf:resource="&ont.;OWLClass_00000000000000001180"/>
+        <rdfs:range rdf:resource="&xsd;dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLDataProperty_00000000000000001186 -->
+
+    <owl:DatatypeProperty rdf:about="&ont.;OWLDataProperty_00000000000000001186">
+        <rdfs:label xml:lang="en">FIR_Policestation</rdfs:label>
+        <rdfs:domain rdf:resource="&ont.;OWLClass_00000000000000001180"/>
+        <rdfs:range rdf:resource="&xsd;dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLClass_00000000000000000928 -->
+
+    <owl:Class rdf:about="&ont.;OWLClass_00000000000000000928">
+        <rdfs:label xml:lang="en">section_92</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLClass_00000000000000001039 -->
+
+    <owl:Class rdf:about="&ont.;OWLClass_00000000000000001039">
+        <rdfs:label xml:lang="en">Case_Details</rdfs:label>
+        <rdfs:comment>Information about  case</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLClass_00000000000000001085 -->
+
+    <owl:Class rdf:about="&ont.;OWLClass_00000000000000001085">
+        <rdfs:label xml:lang="en">498</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLClass_00000000000000001087 -->
+
+    <owl:Class rdf:about="&ont.;OWLClass_00000000000000001087">
+        <rdfs:label xml:lang="en">Location</rdfs:label>
+        <rdfs:comment>Case related places</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLClass_00000000000000001091 -->
+
+    <owl:Class rdf:about="&ont.;OWLClass_00000000000000001091">
+        <rdfs:label xml:lang="en">Crime_Type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLClass_00000000000000001092 -->
+
+    <owl:Class rdf:about="&ont.;OWLClass_00000000000000001092">
+        <rdfs:label xml:lang="en">Evidence</rdfs:label>
+        <rdfs:comment>the facts, signs, etc. that make you believe that something is true</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLClass_00000000000000001093 -->
+
+    <owl:Class rdf:about="&ont.;OWLClass_00000000000000001093">
+        <rdfs:label xml:lang="en">Harm_Caused_By</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLClass_00000000000000001094 -->
+
+    <owl:Class rdf:about="&ont.;OWLClass_00000000000000001094">
+        <rdfs:label xml:lang="en">Persons</rdfs:label>
+        <rdfs:comment>One who involved in the case .</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLClass_00000000000000001095 -->
+
+    <owl:Class rdf:about="&ont.;OWLClass_00000000000000001095">
+        <rdfs:label xml:lang="en">Punishments</rdfs:label>
+        <rdfs:comment>the action or way of punishing somebody</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLClass_00000000000000001125 -->
+
+    <owl:Class rdf:about="&ont.;OWLClass_00000000000000001125">
+        <rdfs:label xml:lang="en">Criminal</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ont.;OWLClass_00000000000000001094"/>
+        <rdfs:comment>One who commits offence</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLClass_00000000000000001127 -->
+
+    <owl:Class rdf:about="&ont.;OWLClass_00000000000000001127">
+        <rdfs:label xml:lang="en">Suspect</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ont.;OWLClass_00000000000000001094"/>
+        <rdfs:comment>a person who is thought to be guilty of a crime</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLClass_00000000000000001128 -->
+
+    <owl:Class rdf:about="&ont.;OWLClass_00000000000000001128">
+        <rdfs:label xml:lang="en">Victim</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ont.;OWLClass_00000000000000001094"/>
+        <rdfs:comment>a person that is injured, killed or hurt by somebody/something</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLClass_00000000000000001129 -->
+
+    <owl:Class rdf:about="&ont.;OWLClass_00000000000000001129">
+        <rdfs:label xml:lang="en">Judge</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ont.;OWLClass_00000000000000001094"/>
+        <rdfs:comment>who decide how criminals should be punished and to make legal decisions</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLClass_00000000000000001130 -->
+
+    <owl:Class rdf:about="&ont.;OWLClass_00000000000000001130">
+        <rdfs:label xml:lang="en">Lawyer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ont.;OWLClass_00000000000000001094"/>
+        <rdfs:comment> give advice to people about the law and speak for them in court</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLClass_00000000000000001131 -->
+
+    <owl:Class rdf:about="&ont.;OWLClass_00000000000000001131">
+        <rdfs:label xml:lang="en">Witness</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ont.;OWLClass_00000000000000001094"/>
+        <rdfs:comment>a person who sees an event happening, especially a crime or an accident</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLClass_00000000000000001136 -->
+
+    <owl:Class rdf:about="&ont.;OWLClass_00000000000000001136">
+        <rdfs:label xml:lang="en">IPC</rdfs:label>
+        <rdfs:comment>Indian Penal Code </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLClass_00000000000000001137 -->
+
+    <owl:Class rdf:about="&ont.;OWLClass_00000000000000001137">
+        <rdfs:label xml:lang="en">Chapters</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ont.;OWLClass_00000000000000001136"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLClass_00000000000000001138 -->
+
+    <owl:Class rdf:about="&ont.;OWLClass_00000000000000001138">
+        <rdfs:label xml:lang="en">Case_Type</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ont.;OWLClass_00000000000000001180"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLClass_00000000000000001150 -->
+
+    <owl:Class rdf:about="&ont.;OWLClass_00000000000000001150">
+        <rdfs:label xml:lang="en">Men</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ont.;OWLClass_00000000000000001094"/>
+        <owl:disjointWith rdf:resource="&ont.;OWLClass_00000000000000001151"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLClass_00000000000000001151 -->
+
+    <owl:Class rdf:about="&ont.;OWLClass_00000000000000001151">
+        <rdfs:label xml:lang="en">Women</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ont.;OWLClass_00000000000000001094"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLClass_00000000000000001158 -->
+
+    <owl:Class rdf:about="&ont.;OWLClass_00000000000000001158">
+        <rdfs:label xml:lang="en">City</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ont.;OWLClass_00000000000000001087"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLClass_00000000000000001159 -->
+
+    <owl:Class rdf:about="&ont.;OWLClass_00000000000000001159">
+        <rdfs:label xml:lang="en">Country</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ont.;OWLClass_00000000000000001087"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLClass_00000000000000001160 -->
+
+    <owl:Class rdf:about="&ont.;OWLClass_00000000000000001160">
+        <rdfs:label xml:lang="en">State</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ont.;OWLClass_00000000000000001087"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLClass_00000000000000001169 -->
+
+    <owl:Class rdf:about="&ont.;OWLClass_00000000000000001169">
+        <rdfs:label xml:lang="en">Case_Status</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ont.;OWLClass_00000000000000001180"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLClass_00000000000000001173 -->
+
+    <owl:Class rdf:about="&ont.;OWLClass_00000000000000001173">
+        <rdfs:label xml:lang="en">History_Of_Case_Hierarchy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ont.;OWLClass_00000000000000001180"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLClass_00000000000000001178 -->
+
+    <owl:Class rdf:about="&ont.;OWLClass_00000000000000001178">
+        <rdfs:label xml:lang="en">Interimorder</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ont.;OWLClass_00000000000000001180"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLClass_00000000000000001180 -->
+
+    <owl:Class rdf:about="&ont.;OWLClass_00000000000000001180">
+        <rdfs:label>Case</rdfs:label>
+        <rdfs:label xml:lang="en">Case</rdfs:label>
+        <rdfs:comment>This contains details of case</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLClass_00000000000000001183 -->
+
+    <owl:Class rdf:about="&ont.;OWLClass_00000000000000001183">
+        <rdfs:label xml:lang="en">FIR_Details</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ont.;OWLClass_00000000000000001180"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLClass_00000000000000001187 -->
+
+    <owl:Class rdf:about="&ont.;OWLClass_00000000000000001187">
+        <rdfs:label xml:lang="en">Petitioner</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ont.;OWLClass_00000000000000001094"/>
+        <rdfs:comment>a person who makes a formal application to a court </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLClass_00000000000000001188 -->
+
+    <owl:Class rdf:about="&ont.;OWLClass_00000000000000001188">
+        <rdfs:label xml:lang="en">Respondent</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ont.;OWLClass_00000000000000001094"/>
+        <rdfs:comment>Person who responds to an appeal or petition filed against him/her</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLClass_00000000000000001189 -->
+
+    <owl:Class rdf:about="&ont.;OWLClass_00000000000000001189">
+        <rdfs:label xml:lang="en">Act</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ont.;OWLClass_00000000000000001136"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections">
+        <rdfs:subClassOf rdf:resource="&ont.;OWLClass_00000000000000001136"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000020 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000020">
+        <rdfs:label xml:lang="en">1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Title and extent of operation of the Code.
+</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000021 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000021">
+        <rdfs:label xml:lang="en">2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Punishment of offences committed within India</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000022 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000022">
+        <rdfs:label xml:lang="en">3</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Punishment of offences committed beyond, but which by law may be tried within, India.
+</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000023 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000023">
+        <rdfs:label xml:lang="en">4</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Extension of Code to extra-territorial offences.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000024 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000024">
+        <rdfs:label xml:lang="en">5</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Certain laws not to be affected by this Act</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000025 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000025">
+        <rdfs:label xml:lang="en">6</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Definitions in the Code to be understood subject to exceptions.
+</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000026 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000026">
+        <rdfs:label xml:lang="en">7</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>sense of expression once explained.
+</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000027 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000027">
+        <rdfs:label xml:lang="en">8</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Gender</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000028 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000028">
+        <rdfs:label xml:lang="en">9</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Number</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000029 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000029">
+        <rdfs:label xml:lang="en">10</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>
+Man”. “Woman”.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000030 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000030">
+        <rdfs:label xml:lang="en">11</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Person”</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000031 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000031">
+        <rdfs:label xml:lang="en">12</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment> “Public”.
+</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000032 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000032">
+        <rdfs:label xml:lang="en">13</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Omitted.].
+</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000033 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000033">
+        <rdfs:label xml:lang="en">14</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Servant of Government”.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000034 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000034">
+        <rdfs:label xml:lang="en">15</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment> [Repealed.]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000035 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000035">
+        <rdfs:label xml:lang="en">16</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment> [Repealed.]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000036 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000036">
+        <rdfs:label xml:lang="en">17</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment> “Government”</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000037 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000037">
+        <rdfs:label xml:lang="en">18</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>India</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000038 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000038">
+        <rdfs:label xml:lang="en">19</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Judge</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000039 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000039">
+        <rdfs:label xml:lang="en">20</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>court of justice</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000040 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000040">
+        <rdfs:label xml:lang="en">21</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Public servant</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000041 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000041">
+        <rdfs:label xml:lang="en">22</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Moveable property</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000042 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000042">
+        <rdfs:label xml:lang="en">23</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>. “Wrongful gain”.
+“Wrongful loss”.
+Gaining wrongfully/ Losing wrongfully.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000043 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000043">
+        <rdfs:label xml:lang="en">24</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Dishonestly</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000044 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000044">
+        <rdfs:label xml:lang="en">25</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>fraudulently</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000045 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000045">
+        <rdfs:label xml:lang="en">26</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Reason to believe”</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000046 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000046">
+        <rdfs:label xml:lang="en">27</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Property in possession of wife, clerk or servant.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000047 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000047">
+        <rdfs:label xml:lang="en">28</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>“Counterfeit”</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000048 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000048">
+        <rdfs:label xml:lang="en">29</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>“Document”.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000049 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000049">
+        <rdfs:label xml:lang="en">30</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Valuable security”.
+</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000050 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000050">
+        <rdfs:label xml:lang="en">31</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment> “A will”.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000051 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000051">
+        <rdfs:label xml:lang="en">32</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Words referring to acts include illegal omissions</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000052 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000052">
+        <rdfs:label xml:lang="en">33</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>. “Act”.
+“Omission”.
+</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000053 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000053">
+        <rdfs:label xml:lang="en">34</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Acts done by several persons in furtherance of common intention.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000054 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000054">
+        <rdfs:label xml:lang="en">35</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>When such an act is criminal by reason of its being done with a criminal knowledge or intention.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000055 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000055">
+        <rdfs:label xml:lang="en">36</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Effect caused partly by act and partly by omission</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000056 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000056">
+        <rdfs:label xml:lang="en">37</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>. Co-operation by doing one of several acts constituting an offence</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000057 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000057">
+        <rdfs:label xml:lang="en">38</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment> Persons concerned in criminal act may be guilty of different offences</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000058 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000058">
+        <rdfs:label xml:lang="en">39</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Voluntarily”</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000059 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000059">
+        <rdfs:label xml:lang="en">40</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>. “Offence”.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000060 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000060">
+        <rdfs:label xml:lang="en">41</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Special law”</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000061 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000061">
+        <rdfs:label xml:lang="en">42</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Local law</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000062 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000062">
+        <rdfs:label xml:lang="en">43</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>. “Illegal”.
+“Legally bound to do”</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000063 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000063">
+        <rdfs:label xml:lang="en">44</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment> “Injury”.
+</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000064 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000064">
+        <rdfs:label xml:lang="en">45</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Life</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000065 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000065">
+        <rdfs:label xml:lang="en">46</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Death
+</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000066 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000066">
+        <rdfs:label xml:lang="en">47</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Animal</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000067 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000067">
+        <rdfs:label xml:lang="en">48</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Vessel</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000068 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000068">
+        <rdfs:label xml:lang="en">49</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>“Year”.
+“Month”.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000069 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000069">
+        <rdfs:label xml:lang="en">A</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000048"/>
+        <rdfs:comment>Electronic record”</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000070 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000070">
+        <rdfs:label xml:lang="en">50</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>section</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000071 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000071">
+        <rdfs:label xml:lang="en">51</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Oath</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000072 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000072">
+        <rdfs:label xml:lang="en">52</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Good faith</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000073 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000073">
+        <rdfs:label xml:lang="en">A</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000072"/>
+        <rdfs:comment>Harbour</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000074 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000074">
+        <rdfs:label xml:lang="en">53</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Punishments</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000075 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000075">
+        <rdfs:label xml:lang="en">54</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment> Commutation of sentence of death.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000076 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000076">
+        <rdfs:label xml:lang="en">55</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment> Commutation of sentence of imprisonment for life</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000077 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000077">
+        <rdfs:label xml:lang="en">56</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Repealed</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000078 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000078">
+        <rdfs:label xml:lang="en">57</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment> Fractions of terms of punishment</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000079 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000079">
+        <rdfs:label xml:lang="en">58</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Repealed.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000080 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000080">
+        <rdfs:label xml:lang="en">59</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Repealed</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000081 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000081">
+        <rdfs:label xml:lang="en">60</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Sentence may be (in certain cases of imprisonment) wholly or partly rigorous of simple</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000082 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000082">
+        <rdfs:label xml:lang="en">61</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Repealed</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000083 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000083">
+        <rdfs:label xml:lang="en">62</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Repealed</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000084 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000084">
+        <rdfs:label xml:lang="en">63</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Amount of fine</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000085 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000085">
+        <rdfs:label xml:lang="en">64</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment> Sentence of imprisonment for non-payment of fine.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000086 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000086">
+        <rdfs:label xml:lang="en">65</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Limit to imprisonment for non-payment of fine, when imprisonment and fine awardable</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000087 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000087">
+        <rdfs:label xml:lang="en">66</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment> Description of imprisonment for non-payment of fine.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000088 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000088">
+        <rdfs:label xml:lang="en">67</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>. Imprisonment for non-payment of fine, when offence punishable with fine only.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000089 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000089">
+        <rdfs:label xml:lang="en">68</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>imprisonment to terminate on payment of fine.
+</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000090 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000090">
+        <rdfs:label xml:lang="en">69</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Termination of imprisonment on payment of proportional part of fine.
+</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000091 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000091">
+        <rdfs:label xml:lang="en">70</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Fine leviable within six years, of during imprisonment. Death not to discharge property from liability</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000092 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000092">
+        <rdfs:label xml:lang="en">71</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment> Limit of punishment of offence made up of several offences.
+</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000093 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000093">
+        <rdfs:label xml:lang="en">72</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Punishment of person guilty of one of several offences, the judgment stating that is doubtful of which.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000094 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000094">
+        <rdfs:label xml:lang="en">73</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment> Solitary confinement.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000095 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000095">
+        <rdfs:label xml:lang="en">74</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>. Limit of solitary confinement.
+</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000096 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000096">
+        <rdfs:label xml:lang="en">75</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Enhanced punishment for certain offences under Chapter XII or Chapter XVII after previous conviction</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000097 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000097">
+        <rdfs:label xml:lang="en">A</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000074"/>
+        <rdfs:comment>Construction of reference to transportation</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000100 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000100">
+        <rdfs:label xml:lang="en">A</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000076"/>
+        <rdfs:comment>Definition of &quot;appropriate Government&quot;.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000101 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000101">
+        <rdfs:label xml:lang="en">76</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Act done by a person bound, or by mistake of fact believing himself bound, by law</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000103 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000103">
+        <rdfs:label xml:lang="en">78</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Act done pursuant to the judgment or order of Court.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000105 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000105">
+        <rdfs:label xml:lang="en">80</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment> Accident in doing a lawful act.
+</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000106 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000106">
+        <rdfs:label xml:lang="en">81</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>
+ Act likely to cause harm, but done without criminal intent, and to prevent other harm.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000107 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000107">
+        <rdfs:label xml:lang="en">82</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>. Act of a child under seven years of age</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000108 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000108">
+        <rdfs:label xml:lang="en">83</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Act of a child above seven and under twelve of immature understanding</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000110 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000110">
+        <rdfs:label xml:lang="en">85</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Act of a person incapable of judgment by reason of intoxication caused against his will.
+</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000111 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000111">
+        <rdfs:label xml:lang="en">86</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Offence requiring a particular intent or knowledge committed by one who is intoxicated.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000112 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000112">
+        <rdfs:label xml:lang="en">87</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Act not intended and not known to be likely to cause death or grievous hurt, done by consent.
+</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000113 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000113">
+        <rdfs:label xml:lang="en">88</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Act not intended to cause death, done by consent in good faith for person&apos;s benefit.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000114 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000114">
+        <rdfs:label xml:lang="en">89</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Act done in good faith for benefit of child or insane person, by or by consent of guardian Provisos</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000115 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000115">
+        <rdfs:label xml:lang="en">90</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Consent known to be given under fear or misconception.
+Consent of insane person.
+consent of insane person</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000116 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000116">
+        <rdfs:label xml:lang="en">91</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Exclusion of acts which are offences independently of harm caused.
+</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000117 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000117">
+        <rdfs:label xml:lang="en">92</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Act done in good faith for benefit of a person without consent. provisos</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000118 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000118">
+        <rdfs:label xml:lang="en">93</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Communication made in good faith.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000119 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000119">
+        <rdfs:label xml:lang="en">94</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Act to which a person is compelled by threats.
+</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000120 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000120">
+        <rdfs:label xml:lang="en">95</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment> Act causing slight harm</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000121 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000121">
+        <rdfs:label xml:lang="en">96</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Things done in private defence.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000122 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000122">
+        <rdfs:label xml:lang="en">97</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Right of private defence of the body and of property</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000123 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000123">
+        <rdfs:label xml:lang="en">98</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Right of private defence against the act of a person of unsound mind. etc.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000124 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000124">
+        <rdfs:label xml:lang="en">99</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>. Acts against which there is no right of private defence.
+Extent to which the right may be exercised.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000125 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000125">
+        <rdfs:label xml:lang="en">100</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>When the right of private defence of the body extends to causing death.
+</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000126 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000126">
+        <rdfs:label xml:lang="en">101</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>When such right extends to causing any harm other than death</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000127 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000127">
+        <rdfs:label xml:lang="en">102</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Commencement and continuance of the right of private defence of the body</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000128 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000128">
+        <rdfs:label xml:lang="en">103</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>.When the right of private defence of property extends to causing death</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000129 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000129">
+        <rdfs:label xml:lang="en">104</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>When such right extends to causing any harm other than death.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000130 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000130">
+        <rdfs:label xml:lang="en">105</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>.Commencement and continuance of the right of private defence of property</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000131 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000131">
+        <rdfs:label xml:lang="en">106</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Right of private defence against deadly assault when there is risk of harm to innocent person</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000132 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000132">
+        <rdfs:label xml:lang="en">107</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Abetment of a thing</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000133 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000133">
+        <rdfs:label xml:lang="en">108</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Abettor</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000134 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000134">
+        <rdfs:label xml:lang="en">109</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>.Punishment of a abetment if the act abetted is committed in consequence and when no express 
+provision is made for its punishment</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000135 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000135">
+        <rdfs:label xml:lang="en">110</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Punishment of abetment if person abetted does act with different intention from that of abettor</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000136 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000136">
+        <rdfs:label xml:lang="en">111</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Liability of abettor when one act abetted and different act done</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000137 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000137">
+        <rdfs:label xml:lang="en">112</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Abettor when liable to cumulative punishment for act abetted and for act done .</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000138 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000138">
+        <rdfs:label xml:lang="en">113</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Liability of abettor for an effect caused by the act abetted different from that intended by the abettor.
+</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000139 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000139">
+        <rdfs:label xml:lang="en">114</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Abettor present when offence is committed.
+</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000140 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000140">
+        <rdfs:label xml:lang="en">115</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Abetment of offence punishable with death or imprisonment for life.—if offence not committed.
+if act causing harm be done in consequence.
+</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000141 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000141">
+        <rdfs:label xml:lang="en">116</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>.Abetment of offence punishable with imprisonment.—if offence be not committed.
+if abettor or person abetted be a public servant whose duty it is to prevent offence</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000142 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000142">
+        <rdfs:label xml:lang="en">117</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Abetting commission of offence by the public or by more than ten persons.
+</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000143 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000143">
+        <rdfs:label xml:lang="en">118</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>.Concealing design to commit offence punishable with death or imprisonment for life.
+If offence be committed;
+if offence be not committed.
+</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000144 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000144">
+        <rdfs:label xml:lang="en">119</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Public servant concealing design to commit offence which it is his duty to prevent.
+if offence be committed;
+if offence be punishable with death, etc.
+if offence be not committed</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000145 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000145">
+        <rdfs:label xml:lang="en">120</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>.Concealing design to commit offence punishable with imprisonment.
+if offence be committed;
+if offence be not committed</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000146 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000146">
+        <rdfs:label xml:lang="en">121</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Waging, or attempting to wage war, or abetting waging of war, against the Government of India.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000147 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000147">
+        <rdfs:label xml:lang="en">122</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>. Collecting arms, etc., with intention of waging war against the Government of India.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000148 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000148">
+        <rdfs:label xml:lang="en">123</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Concealing with intent to facilitate design to wage war.
+</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000149 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000149">
+        <rdfs:label xml:lang="en">124</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Assaulting President. Governor, etc., with intent to compel or restrain the exercise of any lawful power.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000150 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000150">
+        <rdfs:label xml:lang="en">125</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>. Waging war against any Asiatic power in alliance with the Government of India.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000151 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000151">
+        <rdfs:label xml:lang="en">126</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Committing depredation on territories of power at peace with the Government of India.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000152 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000152">
+        <rdfs:label xml:lang="en">127</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>. Receiving property taken by war or depredation mentioned in sections 125 and 126</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000153 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000153">
+        <rdfs:label xml:lang="en">128</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Public servant voluntarily allowing prisoner of State or war to escape.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000154 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000154">
+        <rdfs:label xml:lang="en">129</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Public servant negligently suffering such prisoner to escape</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000155 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000155">
+        <rdfs:label xml:lang="en">130</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Aiding escape of, rescuing or harbouring such prisoner.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000156 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000156">
+        <rdfs:label xml:lang="en">A</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000133"/>
+        <rdfs:comment> Abetment in Indian of offences outside India</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000157 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000157">
+        <rdfs:label xml:lang="en">A</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000146"/>
+        <rdfs:comment>. Conspiracy to commit offences punishable by section 121.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000158 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000158">
+        <rdfs:label xml:lang="en">A</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000149"/>
+        <rdfs:comment> Sedition</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000159 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000159">
+        <rdfs:label xml:lang="en">131</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Abetting mutiny, or attempting to seduce a soldier, sailor or airman from his duty</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000160 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000160">
+        <rdfs:label xml:lang="en">132</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Abetment of mutiny, if mutiny is committed in consequence thereof.
+</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000161 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000161">
+        <rdfs:label xml:lang="en">133</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Abetment of assault by soldier, sailor or airman on his superior officer, when in execution of his office.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000162 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000162">
+        <rdfs:label xml:lang="en">134</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Abetment of such assault, if the assault is committed.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000163 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000163">
+        <rdfs:label xml:lang="en">135</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment> Abetment of desertion of soldier, sailor or airman</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000164 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000164">
+        <rdfs:label xml:lang="en">136</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Harbouring deserter</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000165 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000165">
+        <rdfs:label xml:lang="en">137</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Deserter concealed on board merchant vessel through negligence of master</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000166 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000166">
+        <rdfs:label xml:lang="en">138</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Abetment of act of insubordination by soldier, sailor or airman.
+</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000167 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000167">
+        <rdfs:label xml:lang="en">139</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Persons subject to certain Acts.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000168 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000168">
+        <rdfs:label xml:lang="en">140</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#Sections"/>
+        <rdfs:comment>Wearing garb or carrying token used by soldier, sailor or airman.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000169 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000169">
+        <rdfs:label xml:lang="en">A</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000166"/>
+        <rdfs:comment>Repealed.].</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000292 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000292">
+        <rdfs:label xml:lang="en">A</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000145"/>
+        <rdfs:comment>Definition of criminal conspiracy</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000293 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000293">
+        <rdfs:label xml:lang="en">B</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3/OWLClass_00000000000000000145"/>
+        <rdfs:comment>Punishment of criminal conspiracy</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000000916 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000000916">
+        <rdfs:label xml:lang="en">sid</rdfs:label>
+        <ont.:OWLObjectProperty_00000000000000000912 rdf:resource="&ont.;OWLNamedIndividual_00000000000000000917"/>
+        <ont.:OWLObjectProperty_00000000000000000913 rdf:resource="&ont.;OWLNamedIndividual_00000000000000000917"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000000917 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000000917">
+        <rdfs:label xml:lang="en">Alex</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000000922 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000000922">
+        <rdfs:label xml:lang="en">Neil</rdfs:label>
+        <ont.:OWLObjectProperty_00000000000000000919 rdf:resource="&ont.;OWLNamedIndividual_00000000000000000923"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000000923 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000000923">
+        <rdfs:label xml:lang="en">james</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000001082 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000001082">
+        <rdfs:label xml:lang="en">Anjali</rdfs:label>
+        <ont.:OWLObjectProperty_00000000000000001080 rdf:resource="&ont.;OWLNamedIndividual_00000000000000001083"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000001083 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000001083">
+        <rdfs:label xml:lang="en">Raj</rdfs:label>
+        <ont.:OWLObjectProperty_00000000000000001077 rdf:resource="&ont.;OWLNamedIndividual_00000000000000001082"/>
+        <ont.:OWLObjectProperty_00000000000000001078 rdf:resource="&ont.;OWLNamedIndividual_00000000000000001082"/>
+        <ont.:OWLObjectProperty_00000000000000001079 rdf:resource="&ont.;OWLNamedIndividual_00000000000000001082"/>
+        <ont.:OWLObjectProperty_00000000000000001081 rdf:resource="&ont.;OWLNamedIndividual_00000000000000001084"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000001084 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000001084">
+        <rdfs:label xml:lang="en">Mohan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000001090 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000001090">
+        <rdfs:label xml:lang="en">Blood</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000001097 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000001097">
+        <rdf:type rdf:resource="&ont.;OWLClass_00000000000000001087"/>
+        <rdfs:label xml:lang="en">Residence</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000001098 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000001098">
+        <rdf:type rdf:resource="&ont.;OWLClass_00000000000000001087"/>
+        <rdfs:label xml:lang="en">Work_Place</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000001099 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000001099">
+        <rdf:type rdf:resource="&ont.;OWLClass_00000000000000001087"/>
+        <rdfs:label xml:lang="en">Other</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000001100 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000001100">
+        <rdf:type rdf:resource="&ont.;OWLClass_00000000000000001091"/>
+        <rdfs:label xml:lang="en">Domestic_Violence</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000001101 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000001101">
+        <rdf:type rdf:resource="&ont.;OWLClass_00000000000000001091"/>
+        <rdfs:label xml:lang="en">Dowry</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000001102 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000001102">
+        <rdf:type rdf:resource="&ont.;OWLClass_00000000000000001091"/>
+        <rdfs:label xml:lang="en">Drug_Abuse</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000001103 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000001103">
+        <rdf:type rdf:resource="&ont.;OWLClass_00000000000000001091"/>
+        <rdfs:label xml:lang="en">Fraud</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000001104 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000001104">
+        <rdf:type rdf:resource="&ont.;OWLClass_00000000000000001091"/>
+        <rdfs:label xml:lang="en">Murder</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000001105 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000001105">
+        <rdf:type rdf:resource="&ont.;OWLClass_00000000000000001091"/>
+        <rdfs:label xml:lang="en">Robbery</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000001106 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000001106">
+        <rdf:type rdf:resource="&ont.;OWLClass_00000000000000001091"/>
+        <rdfs:label xml:lang="en">Sexual_Harrassment</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000001107 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000001107">
+        <rdf:type rdf:resource="&ont.;OWLClass_00000000000000001091"/>
+        <rdfs:label xml:lang="en">Theft</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000001108 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000001108">
+        <rdf:type rdf:resource="&ont.;OWLClass_00000000000000001092"/>
+        <rdfs:label xml:lang="en">Blood</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000001109 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000001109">
+        <rdf:type rdf:resource="&ont.;OWLClass_00000000000000001092"/>
+        <rdfs:label xml:lang="en">Bloodied_Clothing</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000001110 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000001110">
+        <rdf:type rdf:resource="&ont.;OWLClass_00000000000000001092"/>
+        <rdfs:label xml:lang="en">Digital_Evidence</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000001111 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000001111">
+        <rdf:type rdf:resource="&ont.;OWLClass_00000000000000001092"/>
+        <rdfs:label xml:lang="en">Finger_Print</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000001112 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000001112">
+        <rdf:type rdf:resource="&ont.;OWLClass_00000000000000001092"/>
+        <rdfs:label xml:lang="en">Fire_Debris</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000001113 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000001113">
+        <rdf:type rdf:resource="&ont.;OWLClass_00000000000000001092"/>
+        <rdfs:label xml:lang="en">Foot_Prints</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000001114 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000001114">
+        <rdf:type rdf:resource="&ont.;OWLClass_00000000000000001092"/>
+        <rdfs:label xml:lang="en">Hairs</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000001115 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000001115">
+        <rdf:type rdf:resource="&ont.;OWLClass_00000000000000001092"/>
+        <rdfs:label xml:lang="en">Other_Body_Fluids</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000001116 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000001116">
+        <rdf:type rdf:resource="&ont.;OWLClass_00000000000000001092"/>
+        <rdfs:label xml:lang="en">Physical_Objects</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000001117 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000001117">
+        <rdf:type rdf:resource="&ont.;OWLClass_00000000000000001092"/>
+        <rdfs:label xml:lang="en">Tire_Tracks</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000001118 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000001118">
+        <rdf:type rdf:resource="&ont.;OWLClass_00000000000000001093"/>
+        <rdfs:label xml:lang="en">Cloth</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000001119 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000001119">
+        <rdf:type rdf:resource="&ont.;OWLClass_00000000000000001093"/>
+        <rdfs:label xml:lang="en">Gun</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000001120 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000001120">
+        <rdf:type rdf:resource="&ont.;OWLClass_00000000000000001093"/>
+        <rdfs:label xml:lang="en">Hit_By_Vehicle</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000001121 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000001121">
+        <rdf:type rdf:resource="&ont.;OWLClass_00000000000000001093"/>
+        <rdfs:label xml:lang="en">Knife</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000001122 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000001122">
+        <rdf:type rdf:resource="&ont.;OWLClass_00000000000000001093"/>
+        <rdfs:label xml:lang="en">Poisson</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000001123 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000001123">
+        <rdf:type rdf:resource="&ont.;OWLClass_00000000000000001093"/>
+        <rdfs:label xml:lang="en">Rope</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000001124 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000001124">
+        <rdf:type rdf:resource="&ont.;OWLClass_00000000000000001093"/>
+        <rdfs:label xml:lang="en">Stabbed</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000001132 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000001132">
+        <rdfs:label xml:lang="en">Ruqaiya(Bechari,Pidhit,Dosto dwara thukrai hui)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000001141 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000001141">
+        <rdf:type rdf:resource="&ont.;OWLClass_00000000000000001137"/>
+        <rdfs:label xml:lang="en">Chapter1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000001146 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000001146">
+        <rdf:type rdf:resource="&ont.;OWLClass_00000000000000001137"/>
+        <rdfs:label xml:lang="en">Chapter2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000001147 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000001147">
+        <rdf:type rdf:resource="&ont.;OWLClass_00000000000000001137"/>
+        <rdfs:label xml:lang="en">Chapter3</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000001148 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000001148">
+        <rdf:type rdf:resource="&ont.;OWLClass_00000000000000001137"/>
+        <rdfs:label xml:lang="en">Chapter4</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000001149 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000001149">
+        <rdf:type rdf:resource="&ont.;OWLClass_00000000000000001137"/>
+        <rdfs:label xml:lang="en">Chapter5</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000001152 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000001152">
+        <rdf:type rdf:resource="&ont.;OWLClass_00000000000000001137"/>
+        <rdfs:label xml:lang="en">Chapter5</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000001153 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000001153">
+        <rdf:type rdf:resource="&ont.;OWLClass_00000000000000001137"/>
+        <rdfs:label xml:lang="en">Chapter6</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000001154 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000001154">
+        <rdf:type rdf:resource="&ont.;OWLClass_00000000000000001137"/>
+        <rdfs:label xml:lang="en">Chapter7</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000001155 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000001155">
+        <rdf:type rdf:resource="&ont.;OWLClass_00000000000000001137"/>
+        <rdfs:label xml:lang="en">Chapter8</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000001156 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000001156">
+        <rdf:type rdf:resource="&ont.;OWLClass_00000000000000001137"/>
+        <rdfs:label xml:lang="en">Chapter9</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000001157 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000001157">
+        <rdf:type rdf:resource="&ont.;OWLClass_00000000000000001137"/>
+        <rdfs:label xml:lang="en">Chapter10</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000001162 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000001162">
+        <rdf:type rdf:resource="&ont.;OWLClass_00000000000000001138"/>
+        <rdfs:label xml:lang="en">Civil</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000001163 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000001163">
+        <rdf:type rdf:resource="&ont.;OWLClass_00000000000000001138"/>
+        <rdfs:label xml:lang="en">Criminal</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000001190 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000001190">
+        <rdf:type rdf:resource="&ont.;OWLClass_00000000000000001189"/>
+        <rdfs:label xml:lang="en">Code_Of_Civil_Procedure</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000001191 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000001191">
+        <rdf:type rdf:resource="&ont.;OWLClass_00000000000000001189"/>
+        <rdfs:label xml:lang="en">Indian_Penal_Code</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000001192 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000001192">
+        <rdf:type rdf:resource="&ont.;OWLClass_00000000000000001095"/>
+        <rdfs:label xml:lang="en">Death_Penalty</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000001193 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000001193">
+        <rdf:type rdf:resource="&ont.;OWLClass_00000000000000001095"/>
+        <rdfs:label xml:lang="en">Imprisonment</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#OWLNamedIndividual_00000000000000001194 -->
+
+    <owl:NamedIndividual rdf:about="&ont.;OWLNamedIndividual_00000000000000001194">
+        <rdf:type rdf:resource="&ont.;OWLClass_00000000000000001095"/>
+        <rdfs:label xml:lang="en">Fine</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#David -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#David"/>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#John -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#John"/>
+    
+
+
+    <!-- http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#My_Drug -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/archa/ontologies/2023/1/untitled-ontology-3#My_Drug"/>
+    <rdf:Description>
+        <swrl:argument2 rdf:resource="urn:swrl#b"/>
+    </rdf:Description>
+    <rdf:Description>
+        <swrl:argument2 rdf:resource="urn:swrl#b"/>
+    </rdf:Description>
+    <rdf:Description>
+        <swrl:argument2 rdf:resource="urn:swrl#b"/>
+    </rdf:Description>
+    <rdf:Description>
+        <swrl:argument2 rdf:resource="urn:swrl#b"/>
+    </rdf:Description>
+    <rdf:Description>
+        <swrl:argument2 rdf:resource="urn:swrl#b"/>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
