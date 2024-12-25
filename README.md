@@ -1,0 +1,2 @@
+# LegalJudgement
+Ontology based application 
